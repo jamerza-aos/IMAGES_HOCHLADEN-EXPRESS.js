@@ -1,0 +1,10 @@
+
+<%- include('partials/header') %>
+
+    <form action="/add" method="POST" enctype="multipart/form-data">
+        <input type="text" name="myText" id="">
+        <input type="file" name="myFile" accept="image/*" id="">
+        <input type="submit" value="Send me">
+
+    </form>
+    <%- include('partials/footer') %>
